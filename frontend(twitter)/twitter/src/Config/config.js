@@ -1,0 +1,1 @@
+exports.Base_url="http://localhost:8080"

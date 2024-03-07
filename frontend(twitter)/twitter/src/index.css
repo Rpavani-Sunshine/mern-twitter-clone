@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.logo-size{
+  font-size: 200px !important;
+}
+.loginBlock{
+  border: 1px outset rgb(230, 227, 227);
+  box-shadow: 5px 5px 5px 5px #838282;
+  border-radius: 2rem;
+  width: 75%;
+}
+.loginContainer{
+padding: 10%;
+}
+.rightsidebar ul li{
+  list-style: none;
+}
+.sidebarnav{
+  width: 90%;
+}
+.twitterlogosidebar{
+  margin-left: 60% !important;
+}
+.sidebarleftProfile{
+  margin-left: 40% !important;
+  margin-top: 450px !important;
+}
+@media screen and (max-width:680px) {
+  .sidebarleftProfile{
+    margin-top:20px !important;
+  }
+  .twitterlogosidebar{
+    margin-bottom: 1px !important;
+    margin-left: 2px !important;
+    margin-right: 2rem !important;
+  }
+  .sidebarleftProfile{
+    margin-left: 5rem !important;
+  }
+  .togglebtn{
+    margin: auto !important;
+    margin-top: 20px !important;
+  }
+  .sticky-top{
+    display: flex !important;
+  }
+  .sidebarnav{
+    width: 20%;
+  }
+  .logo-size{
+    font-size: 150px !important;
+  }
+  .tweetbtn{
+    margin-right: 1rem !important;
+  }
+  .loginBlock{
+    border: 1px outset rgb(230, 227, 227);
+    box-shadow: 5px 5px 5px 5px #838282;
+    border-radius: 2rem;
+    width: 100%;
+  }
+  .loginContainer{
+  padding: 5%;
+  }
+  .uploadbtn{
+    height: 50px !important;
+    margin-left: 0.5px !important;
+  }
+  .editbtn{
+    height: 50px !important;
+    margin-left: 0.1px !important;
+  }
+}
